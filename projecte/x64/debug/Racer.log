@@ -1,0 +1,44 @@
+﻿Build started 9/17/2015 1:46:42 PM.
+     1>Project "E:\practica_grafics\projecte\Racer.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\practica_grafics\projecte\x64\Debug\Racer.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\llibreries\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\practica_grafics\projecte\x64\Debug\Racer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\practica_grafics\projecte\x64\Debug\Racer.lib" /MACHINE:X64 x64\Debug\loadShader.obj
+         x64\Debug\main.obj
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+     1>loadShader.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glewGetErrorString referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl onDisplay(void)" (?onDisplay@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardUpFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+     1>main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitContextVersion referenced in function main
+     1>main.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+     1>main.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+     1>main.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+     1>main.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+     1>main.obj : error LNK2001: unresolved external symbol __imp___glewGetAttribLocation
+     1>main.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+     1>main.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+     1>main.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+     1>main.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+     1>..\llibreries\lib\freeglut.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>E:\practica_grafics\projecte\x64\Debug\Racer.exe : fatal error LNK1120: 32 unresolved externals
+     1>Done Building Project "E:\practica_grafics\projecte\Racer.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.88
